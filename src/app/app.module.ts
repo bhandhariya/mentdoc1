@@ -18,6 +18,7 @@ import { NewsComponent } from './shared/news/news.component';
 import { NewslatterComponent } from './shared/newslatter/newslatter.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { TeamComponent } from './shared/team/team.component';
+import { ServiceComponent } from './service/service.component';
 
 @NgModule({
   declarations: [
@@ -36,7 +37,8 @@ import { TeamComponent } from './shared/team/team.component';
     NewsComponent,
     NewslatterComponent,
     FooterComponent,
-    TeamComponent
+    TeamComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
