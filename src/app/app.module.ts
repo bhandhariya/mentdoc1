@@ -19,6 +19,11 @@ import { NewslatterComponent } from './shared/newslatter/newslatter.component';
 import { FooterComponent } from './shared/footer/footer.component';
 import { TeamComponent } from './shared/team/team.component';
 import { ServiceComponent } from './service/service.component';
+import { PortfolioComponent } from './portfolio/portfolio.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { FeaturemainComponent } from './featuremain/featuremain.component';
+
 
 @NgModule({
   declarations: [
@@ -38,7 +43,11 @@ import { ServiceComponent } from './service/service.component';
     NewslatterComponent,
     FooterComponent,
     TeamComponent,
-    ServiceComponent
+    ServiceComponent,
+    PortfolioComponent,
+    BlogComponent,
+    ContactComponent,
+    FeaturemainComponent
   ],
   imports: [
     BrowserModule,
