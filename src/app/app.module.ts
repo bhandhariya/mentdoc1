@@ -23,6 +23,7 @@ import { PortfolioComponent } from './portfolio/portfolio.component';
 import { BlogComponent } from './blog/blog.component';
 import { ContactComponent } from './contact/contact.component';
 import { FeaturemainComponent } from './featuremain/featuremain.component';
+import { Slider2Component } from './shared/slider2/slider2.component';
 
 
 @NgModule({
@@ -47,7 +48,8 @@ import { FeaturemainComponent } from './featuremain/featuremain.component';
     PortfolioComponent,
     BlogComponent,
     ContactComponent,
-    FeaturemainComponent
+    FeaturemainComponent,
+    Slider2Component
   ],
   imports: [
     BrowserModule,
